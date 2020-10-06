@@ -1,6 +1,5 @@
 #! /usr/bin/python
 
-from __future__ import print_function
 import os, sys
 import shutil
 import tarfile
@@ -192,7 +191,7 @@ dirty: False
 branch: master
 pep440: 1.0+1.g250b7ca
 pep440-branch: 1.0+1.g250b7ca
-pep440-pre: 1.0.post.dev1
+pep440-pre: 1.0.post0.dev1
 pep440-post: 1.0.post1+g250b7ca
 pep440-post-branch: 1.0.post1+g250b7ca
 pep440-old: 1.0.post1
@@ -205,7 +204,7 @@ dirty: True
 branch: feature
 pep440: 1.0+1.g250b7ca.dirty
 pep440-branch: 1.0.dev0+1.g250b7ca.dirty
-pep440-pre: 1.0.post.dev1
+pep440-pre: 1.0.post0.dev1
 pep440-post: 1.0.post1.dev0+g250b7ca
 pep440-post-branch: 1.0.post1.dev0+g250b7ca.dirty
 pep440-old: 1.0.post1.dev0
@@ -219,7 +218,7 @@ dirty: False
 branch: feature
 pep440: 1.0+plus.1.g250b7ca
 pep440-branch: 1.0+plus.dev0.1.g250b7ca
-pep440-pre: 1.0+plus.post.dev1
+pep440-pre: 1.0+plus.post0.dev1
 pep440-post: 1.0+plus.post1.g250b7ca
 pep440-post-branch: 1.0+plus.post1.dev0.g250b7ca
 pep440-old: 1.0+plus.post1
@@ -232,7 +231,7 @@ dirty: True
 branch: master
 pep440: 1.0+plus.1.g250b7ca.dirty
 pep440-branch: 1.0+plus.1.g250b7ca.dirty
-pep440-pre: 1.0+plus.post.dev1
+pep440-pre: 1.0+plus.post0.dev1
 pep440-post: 1.0+plus.post1.dev0.g250b7ca
 pep440-post-branch: 1.0+plus.post1.g250b7ca.dirty
 pep440-old: 1.0+plus.post1.dev0
@@ -246,7 +245,7 @@ dirty: False
 branch: master
 pep440: 0+untagged.1.g250b7ca
 pep440-branch: 0+untagged.1.g250b7ca
-pep440-pre: 0.post.dev1
+pep440-pre: 0.post0.dev1
 pep440-post: 0.post1+g250b7ca
 pep440-post-branch: 0.post1+g250b7ca
 pep440-old: 0.post1
@@ -259,7 +258,7 @@ dirty: True
 branch: feature
 pep440: 0+untagged.1.g250b7ca.dirty
 pep440-branch: 0.dev0+untagged.1.g250b7ca.dirty
-pep440-pre: 0.post.dev1
+pep440-pre: 0.post0.dev1
 pep440-post: 0.post1.dev0+g250b7ca
 pep440-post-branch: 0.post1.dev0+g250b7ca.dirty
 pep440-old: 0.post1.dev0
